@@ -27,7 +27,7 @@ if (eventDate > nowDate) {
         if (listaParticipantes.length < 100) {
             listaParticipantes.push(newPart.name);
             console.log(`Evento com vaga disponível. Participante ${newPart.name} cadastrado.`);
-        } else console.log("Participante não caLimite de vagas atingido.");
+        } else console.log("Participante NÃO cadastrado. Limite máximo de vagas atingido.");
     } else console.log("Participante NÃO possui idade mínima.");
     //Listagem dos participantes
     console.log("----------Lista de participantes----------");
